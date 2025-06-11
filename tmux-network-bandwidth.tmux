@@ -15,7 +15,7 @@ replace_placeholder_in_status_line() {
 
 main() {
   local network_bandwidth="$CURRENT_DIR/scripts/network-bandwidth.sh"
-  replace_placeholder_in_status_line "network_bandwidth" "$network_bandwidth" "status-right"
+  replace_placeholder_in_status_line "network_bandwidth" "$network_bandwidth" "status-left"
 }
 
 main

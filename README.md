@@ -18,7 +18,7 @@ Linux: `apt-get install gawk net-tools coreutils`
 ### With Tmux Plugin Manager
 Add the plugin in `.tmux.conf`:
 ```
-set -g @plugin 'xamut/tmux-network-bandwidth'
+set -g @plugin 'foocoder/tmux-network-bandwidth'
 ```
 Press `prefix + I` to fetch the plugin and source it. Done.
 
